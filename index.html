@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<body>
+    <form action="connect.php" method="POST">
+        <table>
+        
+            <tr>
+                <td> Name:</td>
+                <td> <Input type="text" placeholder="Enter your name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td> password:</td>
+                <td><input type="passwordd" placeholder="Enter the password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td> Email I_d:</td>
+                <td> <Input type="text" placeholder="Enter your email I_d" name="email"></td>
+            </tr>
+            <tr>
+                <td> Mob No:</td>
+                <td>
+                    <select name="mobile_code">
+                        <option selected hidden value="">Select code</option>
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+93</option>
+                        <option>+88</option>
+                        <option>+81</option>
+                        <option>+75</option>
+                        <option>+33</option>
+                        <option>+51</option>
+
+                    </select>
+                    <input type="mob_no" placeholder="Enter your Mob No" name="mob_no">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Sumbit" class="btn btn.primary" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
